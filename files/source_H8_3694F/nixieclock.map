@@ -1,0 +1,262 @@
+Archive member included because of file (symbol)
+
+c:/progra~1/besttech/gccdev~1/gcc/h8/bin/../lib/gcc/h8300-elf/4.5-GNUH8_v11.02/../../../../h8300-elf/lib/h8300h/normal\libc.a(lib_a-rand.o)
+                              C:\Users\Owner\AppData\Local\Temp\ccWMHbXN.o (rand)
+c:/progra~1/besttech/gccdev~1/gcc/h8/bin/../lib/gcc/h8300-elf/4.5-GNUH8_v11.02/../../../../h8300-elf/lib/h8300h/normal\libc.a(lib_a-impure.o)
+                              c:/progra~1/besttech/gccdev~1/gcc/h8/bin/../lib/gcc/h8300-elf/4.5-GNUH8_v11.02/../../../../h8300-elf/lib/h8300h/normal\libc.a(lib_a-rand.o) (_impure_ptr)
+c:/progra~1/besttech/gccdev~1/gcc/h8/bin/../lib/gcc/h8300-elf/4.5-GNUH8_v11.02/h8300h/normal\libgcc.a(_muldi3.o)
+                              c:/progra~1/besttech/gccdev~1/gcc/h8/bin/../lib/gcc/h8300-elf/4.5-GNUH8_v11.02/../../../../h8300-elf/lib/h8300h/normal\libc.a(lib_a-rand.o) (__muldi3)
+c:/progra~1/besttech/gccdev~1/gcc/h8/bin/../lib/gcc/h8300-elf/4.5-GNUH8_v11.02/h8300h/normal\libgcc.a(_mulsi3.o)
+                              c:/progra~1/besttech/gccdev~1/gcc/h8/bin/../lib/gcc/h8300-elf/4.5-GNUH8_v11.02/h8300h/normal\libgcc.a(_muldi3.o) (__mulsi3)
+
+Allocating common symbols
+Common symbol       size              file
+
+g_state_current     0x2               C:\Users\Owner\AppData\Local\Temp\ccWMHbXN.o
+
+Discarded input sections
+
+ .comment       0x00000000       0x1d C:\Users\Owner\AppData\Local\Temp\ccWMHbXN.o
+ .comment       0x00000000       0x1d c:/progra~1/besttech/gccdev~1/gcc/h8/bin/../lib/gcc/h8300-elf/4.5-GNUH8_v11.02/../../../../h8300-elf/lib/h8300h/normal\libc.a(lib_a-rand.o)
+ .comment       0x00000000       0x1d c:/progra~1/besttech/gccdev~1/gcc/h8/bin/../lib/gcc/h8300-elf/4.5-GNUH8_v11.02/../../../../h8300-elf/lib/h8300h/normal\libc.a(lib_a-impure.o)
+ .comment       0x00000000       0x1d c:/progra~1/besttech/gccdev~1/gcc/h8/bin/../lib/gcc/h8300-elf/4.5-GNUH8_v11.02/h8300h/normal\libgcc.a(_muldi3.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+vectors          0x00000000         0x00000034         r
+rom              0x00000034         0x00007fcc         xr
+ram              0x0000f780         0x00000800         rw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD C:\Users\Owner\AppData\Local\Temp\ccwfzRtu.o
+LOAD C:\Users\Owner\AppData\Local\Temp\ccWMHbXN.o
+LOAD C:\PROGRA~1\BestTech\GCCDEV~1\TARGET\3694F\libadd3694.a
+LOAD c:/progra~1/besttech/gccdev~1/gcc/h8/bin/../lib/gcc/h8300-elf/4.5-GNUH8_v11.02/../../../../h8300-elf/lib/h8300h/normal\libm.a
+LOAD c:/progra~1/besttech/gccdev~1/gcc/h8/bin/../lib/gcc/h8300-elf/4.5-GNUH8_v11.02/h8300h/normal\libgcc.a
+LOAD c:/progra~1/besttech/gccdev~1/gcc/h8/bin/../lib/gcc/h8300-elf/4.5-GNUH8_v11.02/../../../../h8300-elf/lib/h8300h/normal\libc.a
+LOAD c:/progra~1/besttech/gccdev~1/gcc/h8/bin/../lib/gcc/h8300-elf/4.5-GNUH8_v11.02/h8300h/normal\libgcc.a
+
+.vectors        0x00000000       0x34
+                0x00000000        0x2 SHORT 0x34 ABSOLUTE (_start)
+                0x00000002        0x2 SHORT 0x34 ABSOLUTE (_start)
+                0x00000004        0x2 SHORT 0x34 ABSOLUTE (_start)
+                0x00000006        0x2 SHORT 0x34 ABSOLUTE (_start)
+                0x00000008        0x2 SHORT 0x34 ABSOLUTE (_start)
+                0x0000000a        0x2 SHORT 0x34 ABSOLUTE (_start)
+                0x0000000c        0x2 SHORT 0x34 ABSOLUTE (_start)
+                0x0000000e        0x2 SHORT 0x34 DEFINED (_int_nmi)?ABSOLUTE (_int_nmi):ABSOLUTE (_start)
+                0x00000010        0x2 SHORT 0x34 DEFINED (_int_trap0)?ABSOLUTE (_int_trap0):ABSOLUTE (_start)
+                0x00000012        0x2 SHORT 0x34 DEFINED (_int_trap1)?ABSOLUTE (_int_trap1):ABSOLUTE (_start)
+                0x00000014        0x2 SHORT 0x34 DEFINED (_int_trap2)?ABSOLUTE (_int_trap2):ABSOLUTE (_start)
+                0x00000016        0x2 SHORT 0x34 DEFINED (_int_trap3)?ABSOLUTE (_int_trap3):ABSOLUTE (_start)
+                0x00000018        0x2 SHORT 0x34 ABSOLUTE (_start)
+                0x0000001a        0x2 SHORT 0x34 ABSOLUTE (_start)
+                0x0000001c        0x2 SHORT 0x34 DEFINED (_int_irq0)?ABSOLUTE (_int_irq0):ABSOLUTE (_start)
+                0x0000001e        0x2 SHORT 0x34 DEFINED (_int_irq1)?ABSOLUTE (_int_irq1):ABSOLUTE (_start)
+                0x00000020        0x2 SHORT 0x34 DEFINED (_int_irq2)?ABSOLUTE (_int_irq2):ABSOLUTE (_start)
+                0x00000022        0x2 SHORT 0x34 DEFINED (_int_irq3)?ABSOLUTE (_int_irq3):ABSOLUTE (_start)
+                0x00000024        0x2 SHORT 0x34 DEFINED (_int_wkp)?ABSOLUTE (_int_wkp):ABSOLUTE (_start)
+                0x00000026        0x2 SHORT 0xbd6 DEFINED (_int_timera)?ABSOLUTE (_int_timera):ABSOLUTE (_start)
+                0x00000028        0x2 SHORT 0x34 ABSOLUTE (_start)
+                0x0000002a        0x2 SHORT 0x34 DEFINED (_int_timerw)?ABSOLUTE (_int_timerw):ABSOLUTE (_start)
+                0x0000002c        0x2 SHORT 0xb56 DEFINED (_int_timerv)?ABSOLUTE (_int_timerv):ABSOLUTE (_start)
+                0x0000002e        0x2 SHORT 0x34 DEFINED (_int_sci3)?ABSOLUTE (_int_sci3):ABSOLUTE (_start)
+                0x00000030        0x2 SHORT 0x34 DEFINED (_int_iic2)?ABSOLUTE (_int_iic2):ABSOLUTE (_start)
+                0x00000032        0x2 SHORT 0x34 DEFINED (_int_ad)?ABSOLUTE (_int_ad):ABSOLUTE (_start)
+
+.text           0x00000034     0x18f8
+ CREATE_OBJECT_SYMBOLS
+ *(.text)
+ .text          0x00000034       0x42 C:\Users\Owner\AppData\Local\Temp\ccwfzRtu.o
+                0x00000034                start
+                0x00000072                exit
+ .text          0x00000076     0x16f8 C:\Users\Owner\AppData\Local\Temp\ccWMHbXN.o
+                0x00000076                wait_msec
+                0x000000c8                iic_init
+                0x000000ee                iic_busbusy
+                0x00000146                iic_start
+                0x000001b4                iic_stop
+                0x00000236                iic_put
+                0x000002b6                iic_get
+                0x0000034c                InitH8
+                0x000003ec                RtcInit
+                0x00000420                RtcDateSetBcdInDirect
+                0x000004a8                RtcDateSetBcd
+                0x00000596                RtcDateGetBcd
+                0x00000726                ChangeDigit
+                0x000007e6                DynamicDispCallbackNormal
+                0x0000094e                DynamicDispCallbackRandom
+                0x000009be                ModeCallbackClock
+                0x00000b0e                ModeCallbackCalendar
+                0x00000b56                int_timerv
+                0x00000bd6                int_timera
+                0x00000c1a                StateChangeClock
+                0x00000cc8                StateChangeCalendar
+                0x00000d76                StateChangeHourHSet
+                0x00000daa                StateChangeHourLSet
+                0x00000dde                StateChangeMinuteHSet
+                0x00000e12                StateChangeMinuteLSet
+                0x00000e46                StateChangeSecondHSet
+                0x00000e7a                StateChangeSecondLSet
+                0x00000eae                StateChangeYearHSet
+                0x00000ee2                StateChangeYearLSet
+                0x00000f16                StateChangeMonthHSet
+                0x00000f4a                StateChangeMonthLSet
+                0x00000f7e                StateChangeDateHSet
+                0x00000fb2                StateChangeDateLSet
+                0x00000fe6                HourHDown
+                0x0000101e                HourHUp
+                0x00001056                HourLDown
+                0x0000108e                HourLUp
+                0x000010c6                MinuteHDown
+                0x000010fe                MinuteHUp
+                0x00001136                MinuteLDown
+                0x0000116e                MinuteLUp
+                0x000011a6                SecondHDown
+                0x000011de                SecondHUp
+                0x00001216                SecondLDown
+                0x0000124e                SecondLUp
+                0x00001286                YearHDown
+                0x000012be                YearHUp
+                0x000012f6                YearLDown
+                0x0000132e                YearLUp
+                0x00001366                MonthHDown
+                0x0000139e                MonthHUp
+                0x000013d6                MonthLDown
+                0x0000140e                MonthLUp
+                0x00001446                DateHDown
+                0x0000147e                DateHUp
+                0x000014b6                DateLDown
+                0x000014ee                DateLUp
+                0x00001526                main
+ .text          0x0000176e       0x88 c:/progra~1/besttech/gccdev~1/gcc/h8/bin/../lib/gcc/h8300-elf/4.5-GNUH8_v11.02/../../../../h8300-elf/lib/h8300h/normal\libc.a(lib_a-rand.o)
+                0x0000176e                srand
+                0x0000178e                rand
+ .text          0x000017f6        0x0 c:/progra~1/besttech/gccdev~1/gcc/h8/bin/../lib/gcc/h8300-elf/4.5-GNUH8_v11.02/../../../../h8300-elf/lib/h8300h/normal\libc.a(lib_a-impure.o)
+ .text          0x000017f6      0x11c c:/progra~1/besttech/gccdev~1/gcc/h8/bin/../lib/gcc/h8300-elf/4.5-GNUH8_v11.02/h8300h/normal\libgcc.a(_muldi3.o)
+                0x000017f6                __muldi3
+ *fill*         0x00001912        0x2 00
+ .text          0x00001914       0x18 c:/progra~1/besttech/gccdev~1/gcc/h8/bin/../lib/gcc/h8300-elf/4.5-GNUH8_v11.02/h8300h/normal\libgcc.a(_mulsi3.o)
+                0x00001914                __mulsi3
+                0x0000192c                etext = .
+
+.init
+ *(.init)
+
+.fini
+ *(.fini)
+
+.got
+ *(.got)
+ *(.got.plt)
+
+.rodata         0x0000192c        0x6
+ *(.rodata)
+ .rodata        0x0000192c        0x2 C:\Users\Owner\AppData\Local\Temp\ccWMHbXN.o
+ *(.rodata.*)
+ .rodata.align2
+                0x0000192e        0x2 c:/progra~1/besttech/gccdev~1/gcc/h8/bin/../lib/gcc/h8300-elf/4.5-GNUH8_v11.02/../../../../h8300-elf/lib/h8300h/normal\libc.a(lib_a-impure.o)
+                0x0000192e                _global_impure_ptr
+ .rodata.str1.1
+                0x00001930        0x2 c:/progra~1/besttech/gccdev~1/gcc/h8/bin/../lib/gcc/h8300-elf/4.5-GNUH8_v11.02/../../../../h8300-elf/lib/h8300h/normal\libc.a(lib_a-impure.o)
+                0x00001932                _erodata = .
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.jcr
+ *(.jcr)
+
+.tors           0x00001932       0x10
+                0x00001932                __CTOR_LIST__ = .
+                0x00001932        0x4 LONG 0x64c (((__CTOR_END__ - __CTOR_LIST__) / 0x4) - 0x2)
+                0x00001936                ___ctors = .
+ *(.ctors)
+                0x00001936                ___ctors_end = .
+                0x00001936        0x4 LONG 0x0
+                0x0000193a                __CTOR_END__ = .
+                0x0000193a                __DTOR_LIST__ = .
+                0x0000193a        0x4 LONG 0x64c (((__DTOR_END__ - __DTOR_LIST__) / 0x4) - 0x2)
+                0x0000193e                ___dtors = .
+ *(.dtors)
+                0x0000193e                ___dtors_end = .
+                0x0000193e        0x4 LONG 0x0
+                0x00001942                __DTOR_END__ = .
+                0x00001942                _mdata = .
+
+.data           0x0000f780      0x278 load address 0x00001942
+                0x0000f780                _data = .
+ *(.data)
+ .data          0x0000f780        0x0 C:\Users\Owner\AppData\Local\Temp\ccwfzRtu.o
+ .data          0x0000f780       0x13 C:\Users\Owner\AppData\Local\Temp\ccWMHbXN.o
+                0x0000f780                NUM2REG_TABLE
+                0x0000f78a                g_setting_digit
+ .data          0x0000f793        0x0 c:/progra~1/besttech/gccdev~1/gcc/h8/bin/../lib/gcc/h8300-elf/4.5-GNUH8_v11.02/../../../../h8300-elf/lib/h8300h/normal\libc.a(lib_a-rand.o)
+ .data          0x0000f793        0x0 c:/progra~1/besttech/gccdev~1/gcc/h8/bin/../lib/gcc/h8300-elf/4.5-GNUH8_v11.02/../../../../h8300-elf/lib/h8300h/normal\libc.a(lib_a-impure.o)
+ .data          0x0000f793        0x0 c:/progra~1/besttech/gccdev~1/gcc/h8/bin/../lib/gcc/h8300-elf/4.5-GNUH8_v11.02/h8300h/normal\libgcc.a(_muldi3.o)
+ .data          0x0000f793        0x0 c:/progra~1/besttech/gccdev~1/gcc/h8/bin/../lib/gcc/h8300-elf/4.5-GNUH8_v11.02/h8300h/normal\libgcc.a(_mulsi3.o)
+ *(.data.*)
+ *fill*         0x0000f793        0x1 00
+ .data.align2   0x0000f794        0x2 c:/progra~1/besttech/gccdev~1/gcc/h8/bin/../lib/gcc/h8300-elf/4.5-GNUH8_v11.02/../../../../h8300-elf/lib/h8300h/normal\libc.a(lib_a-impure.o)
+                0x0000f794                _impure_ptr
+ *fill*         0x0000f796        0x2 00
+ .data.align4   0x0000f798      0x260 c:/progra~1/besttech/gccdev~1/gcc/h8/bin/../lib/gcc/h8300-elf/4.5-GNUH8_v11.02/../../../../h8300-elf/lib/h8300h/normal\libc.a(lib_a-impure.o)
+                0x0000f9f8                _edata = .
+
+.gcc_exc
+ *(.gcc_exc)
+
+.bss            0x0000f9f8       0x8e load address 0x00001bbc
+                0x0000f9f8                _bss = .
+ *(.bss)
+ .bss           0x0000f9f8        0x0 C:\Users\Owner\AppData\Local\Temp\ccwfzRtu.o
+ .bss           0x0000f9f8       0x8c C:\Users\Owner\AppData\Local\Temp\ccWMHbXN.o
+                0x0000f9f8                g_timer_v_callback
+                0x0000f9fa                g_timer_a_callback
+                0x0000f9fc                prev_button0_pressed
+                0x0000f9fe                prev_button1_pressed
+                0x0000fa00                prev_button2_pressed
+                0x0000fa02                g_state_clock
+                0x0000fa08                g_state_calendar
+                0x0000fa0e                g_state_hour_h_set
+                0x0000fa14                g_state_hour_l_set
+                0x0000fa1a                g_state_minute_h_set
+                0x0000fa20                g_state_minute_l_set
+                0x0000fa26                g_state_second_h_set
+                0x0000fa2c                g_state_second_l_set
+                0x0000fa32                g_state_year_h_set
+                0x0000fa38                g_state_year_l_set
+                0x0000fa3e                g_state_month_h_set
+                0x0000fa44                g_state_month_l_set
+                0x0000fa4a                g_state_date_h_set
+                0x0000fa50                g_state_date_l_set
+                0x0000fa56                g_blink_timer
+ .bss           0x0000fa84        0x0 c:/progra~1/besttech/gccdev~1/gcc/h8/bin/../lib/gcc/h8300-elf/4.5-GNUH8_v11.02/../../../../h8300-elf/lib/h8300h/normal\libc.a(lib_a-rand.o)
+ .bss           0x0000fa84        0x0 c:/progra~1/besttech/gccdev~1/gcc/h8/bin/../lib/gcc/h8300-elf/4.5-GNUH8_v11.02/../../../../h8300-elf/lib/h8300h/normal\libc.a(lib_a-impure.o)
+ .bss           0x0000fa84        0x0 c:/progra~1/besttech/gccdev~1/gcc/h8/bin/../lib/gcc/h8300-elf/4.5-GNUH8_v11.02/h8300h/normal\libgcc.a(_muldi3.o)
+ .bss           0x0000fa84        0x0 c:/progra~1/besttech/gccdev~1/gcc/h8/bin/../lib/gcc/h8300-elf/4.5-GNUH8_v11.02/h8300h/normal\libgcc.a(_mulsi3.o)
+ *(COMMON)
+ COMMON         0x0000fa84        0x2 C:\Users\Owner\AppData\Local\Temp\ccWMHbXN.o
+                0x0000fa84                g_state_current
+                0x0000fa86                _ebss = .
+                0x0000fa86                _end = .
+
+.stack          0x0000ff7c        0x0
+                0x0000ff7c                _stack = .
+ *(.stack)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+/DISCARD/
+ *(.comment)
+OUTPUT(nixieclock.exe elf32-h8300)
